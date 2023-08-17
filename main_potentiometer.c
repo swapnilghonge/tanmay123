@@ -35,6 +35,9 @@ int main(void)
         LCD_Char_1_Position(1,0);
 		LCD_Char_1_PrintString("PotmV:   ");     
 		LCD_Char_1_Position(1,7);
+
+ * CONFIDENTIAL AND PROPRIETARY INFORMATION
+ * WHICH IS THE PROPERTY OF your company.
 		LCD_Char_1_PrintNumber(mV);
 		LCD_Char_1_Position(0,0);
 		LCD_Char_1_PrintString("Angle:   ");     
